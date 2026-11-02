@@ -154,3 +154,80 @@ body.dark {
 html {
     scroll-behavior: smooth;
 }
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.field {
+  margin-bottom: 1.25rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #b8bcc8;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  background: var(--card-bg);
+  color: var(--text-color);
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid var(--main-color);
+}
+
+.error {
+  display: block;
+  color: #d93025;
+  min-height: 1.2rem;
+}
+
+form button {
+  background: var(--main-color);
+  color: white;
+}
+
+#form-message {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #1e8e3e;
+}
+
+#reviews-status {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#reviews-list {
+  display: grid;
+  gap: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.review {
+  background: var(--card-bg);
+  padding: 1.25rem;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review h3 {
+  color: var(--main-color);
+}
+
+.review small {
+  display: block;
+  margin-bottom: 0.5rem;
+  opacity: 0.7;
+}
